@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @driver.nome %>
+</p>
+
+<p>
+  <strong>Cpf:</strong>
+  <%= @driver.cpf %>
+</p>
+
+<p>
+  <strong>Tipocaminhao:</strong>
+  <%= @driver.tipocaminhao %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @driver.address %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @driver.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @driver.longitude %>
+</p>
+
+<%= link_to 'Edit', edit_driver_path(@driver) %> |
+<%= link_to 'Back', drivers_path %>
